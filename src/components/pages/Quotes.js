@@ -11,11 +11,10 @@ export default function Quotes(){
         });
     }, []);
 
-
     return( 
     
         <div>
-        <h1>Quotes</h1>
+        <h1>Quotes Page</h1>
         {data.map((item) => (
           <div key={item.id}>
             {item.content.rendered}
