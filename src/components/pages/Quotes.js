@@ -21,6 +21,9 @@ export default function Quotes(){
             {item.title.rendered}
           </div>
         ))}
+        
+
+
       </div>
     )
 } 
